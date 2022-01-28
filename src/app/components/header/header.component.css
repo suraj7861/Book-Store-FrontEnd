@@ -31,9 +31,7 @@
 .search-box{
     width: 70%;
 }
-.profile{
-    color: white;
-}
+
 .cart-text{
     text-align: left;
     font: normal normal normal 10px/13px Roboto;
@@ -41,13 +39,4 @@
     color: #FFFFFF;
     opacity: 1;
 }
-.profile-svg{
-    width: 18px;
-    height: 18px;
-    color: #FFFFFF;
-}
-.logout{
-    border: 1px solid red;
-    color: red;
-    text-align: center;
-}
+
