@@ -1,56 +1,53 @@
-.header {
-    height: 60px;
+.header{
     background: #A03037 0% 0% no-repeat padding-box;
     opacity: 1;
-  
-  }
-  
-  .image {
-    margin-left: 130px;
-  }
-
-  .bookstore{
-    margin-left: 7px;
-    color:white;
-    font-size: 22px
-  }
-  .search{
-    margin-left: 45px;
-    color:white;
-    padding-left: 10px;
-    font-size: 12px;
-    margin-top: 14px;
-    width: 490px;
-    height: 33px;
-    border-radius:3px;
-    border-width: 0ch;
-  }
-
-  /* .logo{
-    margin-top:19px;
-    margin-left: 1166px; 
-    height:21px;
-    width: 20px;
-  } */
-  .row-head{
     display: flex;
+    flex-direction: row;
     align-items: center;
-    margin-top: 15px;
-    padding-top: 10px;
-  }
-  
-  .cart{
+    padding: 0.5% 0;
+}
+.spacer{
+    width: 10%;
+}
+.spacer-between{
+    width: 3%;
+}
+.logo{
     display: flex;
-    flex-direction: column;
-    margin-left: 40px;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo-text {
+    text-align: left;
+    font: normal normal normal 20px/26px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.search-div{
+    width: 45%;
+}
+.search-box{
+    width: 70%;
+}
+.profile{
     color: white;
-   } 
-   /* .mat-icon{
-  
-      font-size: 20px;
-    } */
-  
-  .label{
-    font-family:Roboto;
-    font-size: 10px;
-  }
+}
+.cart-text{
+    text-align: left;
+    font: normal normal normal 10px/13px Roboto;
+    letter-spacing: 0.45px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.profile-svg{
+    width: 18px;
+    height: 18px;
+    color: #FFFFFF;
+}
+.logout{
+    border: 1px solid red;
+    color: red;
+    text-align: center;
+}

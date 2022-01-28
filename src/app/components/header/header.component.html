@@ -1,16 +1,35 @@
 <div class="header">
-    <div class="row-head">
-        <div class="logo">
-             <img src="./assets/images/education.svg" class="image">
-        </div>
-        <span class="bookstore">Bookstore</span>
-  
-        <mat-form-field class="search" >
-            <input type="text" matInput placeholder="Search">
-        </mat-form-field>
-        <span class="cart">Cart</span>
-        <div class="logo">
-            <img src="./assets/images/supermarket.svg" class="image">
-       </div>
+    <div class="spacer">
+        <span class="spacer"></span>
     </div>
-  </div>
+    <div class="logo">
+        <div class="logo-image"><img src="./assets/images/education.svg" alt=""></div>
+        <span class="logo-text">Bookstore</span>
+    </div>
+    <div class="spacer-between">
+        <span class="spacer-between"></span>
+    </div>
+    <div class="search-div">
+        <input type="text" class="search-box" placeholder="Search">
+    </div>
+    <div class="spacer">
+        <span class="spacer"></span>
+    </div>
+    <!-- <div class="profile">
+        <img class="profile-svg" src="assets/images/profile1.svg" alt="" [mat-menu-trigger-for]="profileMenu">
+        <div class="cart-text" > {{personName || 'Profile'}} </div>
+        <mat-menu #profileMenu="matMenu">
+            <button mat-menu-item>Profile</button>
+            <button mat-menu-item>My Orders</button>
+            <button mat-menu-item>My Wishlist</button>
+            <button class="logout" mat-menu-item (click)="logout()">Logout</button>
+        </mat-menu>
+    </div> -->
+    <div class="spacer-between">
+        <span class="spacer-between"></span>
+    </div>
+    <div class="cart-logo">
+        <div class="cart-text">Cart</div>
+        <img src="assets/images/supermarket.svg" alt="">
+    </div>
+</div>
