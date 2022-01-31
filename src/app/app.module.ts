@@ -21,6 +21,10 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatSelectModule} from '@angular/material/select';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FooterComponent } from './components/footer/footer.component';
+import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
+import { MatCardModule } from '@angular/material/card';
+import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +34,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CartComponent,
     PlaceOrderComponent,
     LoginComponent,
+    FooterComponent,
+    ForgotPasswordComponent,
+    ResetPasswordComponent,
   ],
   imports: [
     BrowserModule,
@@ -43,7 +50,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FlexLayoutModule,MatMenuModule,
     HttpClientModule,MatToolbarModule,
     MatIconModule, BrowserAnimationsModule,
-    MatInputModule,
+    MatInputModule,MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

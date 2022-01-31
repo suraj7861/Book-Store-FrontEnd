@@ -14,17 +14,17 @@
 
         <div class="container">
             <label for="email"><b>Email - Id</b></label><br>
-            <input type="text" [(ngModel)]="credentials.emailId" placeholder="Enter Email-Id" name="email" required><br>
+            <input type="text" [(ngModel)]="userData.emailId" placeholder="Enter Email-Id" name="email" required><br>
 
             <label for="psw"><b>Password</b></label><br>
-            <input type="password" [(ngModel)]="credentials.password"placeholder="Enter Password" name="psw" required>
+            <input type="password" [(ngModel)]="userData.password"placeholder="Enter Password" name="psw" required>
 
             <button type="submit">Login</button>
         </div>
 
         <div class="container2" style="background-color:#eed4d4">
             <button type="button" class="cancelbtn">Cancel</button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
+            <span class="psw"> <a href="#"routerLink="/forgotPassword">Forgot password?</a></span>
         </div>
     </form>
 
